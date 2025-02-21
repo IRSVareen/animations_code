@@ -1,0 +1,295 @@
+.machine-name{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.areas{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* @media screen and (min-width:375) {
+    
+} */
+.suka_img{
+    height: 300px;
+}
+
+.img{
+    height: 40px;
+    margin-left: 320px;
+    margin-top: 100px;
+    animation-name: bottle;
+    animation-duration: 3s;
+    position: absolute;
+    /* animation-iteration-count: infinite; */
+}
+ @keyframes bottle{
+    0%{
+        rotate: 0deg;
+        margin-left: 320px;
+        margin-top: 100px;
+    }
+    100%{
+        rotate: 360deg;
+        margin-left: 500px;
+        margin-top: 220px;
+        display: none;
+    }
+}
+
+.img2{
+    height: 40px;
+    margin-left: 320px;
+    margin-top: 100px;
+    animation-name: bottle2;
+    animation-duration: 3s;
+    position: absolute;
+    /* animation-iteration-count: infinite; */
+}
+@keyframes bottle2{
+    0%{
+        rotate: 0deg;
+        margin-left: 320px;
+        margin-top: 100px;
+    }
+    100%{
+        rotate: 360deg;
+        margin-left: 350px;
+        margin-top: 220px;
+        display: none;
+    }
+}
+
+.img-roll{
+    height: 40px;
+    margin-left: -420px;
+    margin-top: 40px;
+    animation-name: bottle_roll;
+    animation-duration: 6s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+}
+@keyframes bottle_roll{
+    0%{
+        rotate: 0deg;
+        margin-left: -420px;
+        margin-top: 40px;
+        visibility: visible;
+    }
+    25%{
+        rotate: 0deg;
+        margin-left: -220px;
+        margin-top: 40px;
+        visibility: hidden;
+    }
+    50%{
+        rotate: 0deg;
+        margin-left: 0px;
+        margin-top: 40px;
+        visibility: hidden;
+    }
+    75%{
+        rotate: 0deg;
+        margin-left: 240px;
+        margin-top: 40px;
+        visibility: visible;
+    }
+    100%{
+        rotate: 360deg;
+        margin-left: 500px;
+        margin-top: 220px;
+        visibility: visible;
+    }
+}
+
+.img-roll2{
+    height: 40px;
+    margin-left: -420px;
+    margin-top: 40px;
+    animation-name: bottle_roll2;
+    animation-duration: 6s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+}
+@keyframes bottle_roll2{
+    0%{
+        rotate: 0deg;
+        margin-left: -380px;
+        margin-top: 40px;
+        visibility: visible;
+    }
+    25%{
+        rotate: 0deg;
+        margin-left: -170px;
+        margin-top: 40px;
+        visibility: hidden;
+    }
+    50%{
+        rotate: 0deg;
+        margin-left: -40px;
+        margin-top: 40px;
+        visibility: hidden;
+    }
+    75%{
+        rotate: 0deg;
+        margin-left: 240px;
+        margin-top: 40px;
+        visibility: visible;
+    }
+    100%{
+        rotate: 360deg;
+        margin-left: 350px;
+        margin-top: 220px;
+        visibility: visible;
+    }
+}
+
+/* @media  only screen and (max-width:375px) {
+    .suka_img{
+        width:380px;
+        height: 380px;
+    }
+    .img{
+        height: 40px;
+        margin-left: 150px;
+        margin-top: 100px;
+        animation-name: bottle;
+        animation-duration: 3s;
+        position: absolute;
+        animation-iteration-count: infinite;
+    }
+     @keyframes bottle{
+        0%{
+            rotate: 0deg;
+            margin-left: 150px;
+            margin-top: 100px;
+        }
+        100%{
+            rotate: 360deg;
+            margin-left: 300px;
+            margin-top: 220px;
+            display: none;
+        }
+    }
+    .img2{
+        height: 40px;
+        margin-left: 150px;
+        margin-top: 100px;
+        animation-name: bottle2;
+        animation-duration: 3s;
+        position: absolute;
+        animation-iteration-count: infinite;
+    }
+    @keyframes bottle2{
+        0%{
+            rotate: 0deg;
+            margin-left: 150px;
+            margin-top: 100px;
+        }
+        100%{
+            rotate: 360deg;
+            margin-left: 200px;
+            margin-top: 320px;
+            display: none;
+        }
+    }
+    .img-roll{
+        height: 40px;
+        margin-left: -300px;
+        margin-top: 50px;
+        animation-name: bottle_roll;
+        animation-duration: 6s;
+        position: absolute;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-delay: 3s;
+    }
+    @keyframes bottle_roll{
+        0%{
+            rotate: 0deg;
+            margin-left: -300px;
+            margin-top: 50px;
+            visibility: visible;
+        }
+        25%{
+            rotate: 0deg;
+            margin-left: -140px;
+            margin-top: 50px;
+            visibility: hidden;
+        }
+        50%{
+            rotate: 0deg;
+            margin-left: 0px;
+            margin-top: 50px;
+            visibility: hidden;
+        }
+        75%{
+            rotate: 0deg;
+            margin-left: 150px;
+            margin-top: 50px;
+            visibility: visible;
+        }
+        100%{
+            rotate: 360deg;
+            margin-left: 300px;
+            margin-top: 260px;
+            visibility: visible;
+        }
+    }
+
+    .img-roll2{
+        height: 40px;
+        margin-left: -300px;
+        margin-top: 50px;
+        animation-name: bottle_roll2;
+        animation-duration: 6s;
+        position: absolute;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-delay: 5s;
+    }
+    @keyframes bottle_roll2{
+        0%{
+            rotate: 0deg;
+            margin-left: -300px;
+            margin-top: 50px;
+            visibility: visible;
+        }
+        25%{
+            rotate: 0deg;
+            margin-left: -140px;
+            margin-top: 50px;
+            visibility: hidden;
+        }
+        50%{
+            rotate: 0deg;
+            margin-left: 0px;
+            margin-top: 50px;
+            visibility: hidden;
+        }
+        75%{
+            rotate: 0deg;
+            margin-left: 150px;
+            margin-top: 50px;
+            visibility: visible;
+        }
+        100%{
+            rotate: 360deg;
+            margin-left: 200px;
+            margin-top: 280px;
+            visibility: visible;
+        }
+    }
+} */
