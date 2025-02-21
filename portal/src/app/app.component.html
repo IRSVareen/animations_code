@@ -12,21 +12,21 @@
   <div class="data">
     <img src="/assets/machine.png"/>
   </div> -->
-  
+
   <div class="images" #imgContainer>
-    <img src="/assets/bottle.png" class="img-roll"/>
-    <img src="/assets/bottle.png" class="img-roll2"/>
-    <img src="/assets/suka.png" class="suka_img"/>
+    <img src="/assets/bottle.png" class="img-roll" />
+    <img src="/assets/bottle.png" class="img-roll2" />
+    <img src="/assets/suka.png" class="suka_img" />
     <!-- <img src="/assets/bottle.png" class="img"/>
     <img src="/assets/bottle.png" class="img2"/> -->
+    
   </div>
-  <span>{{countEjected}}</span>
-  
+  <div class="ejectedCount">
+    <span>{{countEjected}}</span>
+  </div>
+
+  <div class="rejectedCount">
+    <span>{{countRejected}}</span>
+  </div>
+
 </div>
-<button (click)="ejectedCount()">ejected</button>
-<button (click)="rejectedCount()">rejected</button>
-<span>{{countRejected}}</span>
-
-
-
-
